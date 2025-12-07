@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Css-->
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>FinTrack </title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-content">
+
+            <!-- Logo -->
+            <div class="nav-logo">
+                <h1 class="logo"><a href="#">FinTrack</a></h1>
+            </div>
+
+            <!-- Links centralizados -->
+            <div class="nav-center">
+                <ul class="menu-links">
+                    <li class="primary-link"><a href="index.html">Inicio</a></li>
+                    <li class="link"><a href="#beneficios">Benefícios</a></li>
+                    <li class="link"><a href="#deploy">Depoimentos</a></li>
+                    <li class="link"><a href="#orcamento">Planos</a></li>
+                </ul>
+            </div>
+
+            <!-- Botões no canto direito -->
+            <div class="nav-actions">
+                <a href="#" class="enter">Entrar</a>
+                <a href="#" class="cad">Cadastrar</a>
+            </div>
+
+            <!-- Hamburger (mobile) -->
+            <button id="menu-btn">
+                <i class="bi bi-list"></i>
+            </button>
+
+        </div>
+
+        <div id="menu" class="mobile-menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Benefícios</a></li>
+                <li><a href="#">Depoimentos</a></li>
+                <li><a href="#">Planos</a></li>
+            </ul>
+
+            <div class="mobile-buttons">
+                <a href="#" class="enter">Entrar</a>
+                <a href="#" class="cad">Cadastrar</a>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main">
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="title">
+                    <h2>Assuma o controle das suas finanças, sem esforço</h2>
+                </div>
+                <div class="sub-title">
+                    <p>Ajuda você a fazer orçamentos e investir com facilidade. Obtenha a clareza necessária para
+                        alcançar seus objetivos financeiros.</p>
+                </div>
+
+                <div class="btn-start">
+                    <a href="#">Comece agora</a>
+                </div>
+
+                <div class="img-grafic">
+                    <img src="src/img/img-fintrack-grafic.png" alt="graficos" class="grafic">
+                </div>
+            </div>
+        </section>
+
+        <section class="beneficios" id="beneficios">
+            <div class="bene-content">
+                <div class="title">
+                    <h2>Tudo o que você precisa para administrar seu dinheiro.</h2>
+                </div>
+
+                <div class="sub-title">
+                    <p>Nossos recursos avançados foram projetados para fornecer uma visão completa da sua saúde
+                        financeira, ajudando você a tomar decisões mais inteligentes.</p>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="bi bi-bar-chart-line"></i>
+                        </div>
+                        <h3 class="card-title">Controle claro dos gastos</h3>
+                        <p class="card-text">O FinTrack mostra de forma organizada onde seu dinheiro está sendo usado,
+                            facilitando identificar excessos e ajustar hábitos.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="bi bi-bullseye"></i> <!-- ícone do Bootstrap Icons -->
+                        </div>
+                        <h3 class="card-title">Acompanhamento de metas</h3>
+                        <p class="card-text">Permite criar objetivos financeiros e acompanhar o progresso, ajudando você
+                            a manter disciplina e alcançar suas metas mais rápido.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="bi bi-bell"></i> <!-- ícone do Bootstrap Icons -->
+                        </div>
+                        <h3 class="card-title">Alertas inteligentes</h3>
+                        <p class="card-text">Notificações de gastos altos, metas próximas e lembretes importantes para
+                            evitar esquecimentos.</p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="deploy" id="deploy">
+            <div class="deploy-content">
+                <div class="neg">
+                    <p>Aprovado por milhares de usuários</p>
+                </div>
+                <div class="title">
+                    <h2>O que dizem nossos usuários</h2>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-person">
+                                <img src="src/img/Ana_Carolina.png" alt="image" class="person">
+                            </div>
+
+                            <div class="card-details">
+                                <h3 class="card-title">Ana Carolina</h3>
+                                <div class="card-icon">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="card-text">"FinTrack deixou meu controle financeiro muito mais simples. Interface
+                            clara, funções úteis e tudo bem organizado. Vale a pena."</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-person">
+                                <img src="src/img/Gabriel.png" alt="image" class="person">
+                            </div>
+
+                            <div class="card-details">
+                                <h3 class="card-title">Gabriel</h3>
+                                <div class="card-icon">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="card-text">"FinTrack é fácil de usar e ajuda muito no controle das minhas finanças.
+                            Organiza gastos, metas e me dá mais clareza do meu dinheiro. Excelente app!."</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-person">
+                                <img src="src/img/Jean.png" alt="image" class="person">
+                            </div>
+
+                            <div class="card-details">
+                                <h3 class="card-title">Jean</h3>
+                                <div class="card-icon">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="card-text">"Ótimo app! O FinTrack me ajuda a acompanhar gastos e manter minhas metas
+                            em
+                            dia. Prático e eficiente no dia a dia."</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="orcamento" id="orcamento">
+            <div class="orca-content">
+                <div class="title">
+                    <h2>Escolha seu plano</h2>
+                </div>
+                <div class="sub-title">
+                    <p>Comece gratuitamente e faça um upgrade quando precisar de mais potência.</p>
+                </div>
+
+                <div class="plans">
+                    <div class="plan free">
+                        <h2>Grátis</h2>
+                        <div class="price">R$0<span>/mês</span></div>
+                        <ul>
+                            <li><i class="bi bi-check2-circle"></i>Ferramentas básicas de orçamento</li>
+                            <li><i class="bi bi-check2-circle"></i>Conectar uma conta bancária</li>
+                            <li><i class="bi bi-check2-circle"></i>Controle padrão de despesas</li>
+                            <li><i class="bi bi-check2-circle"></i>Suporte da comunidade</li>
+                        </ul>
+                        <button>Escolher plano</button>
+                    </div>
+
+                    <div class="plan premium">
+                        <div class="most-popular">
+                            Popular</div>
+                        <h2>Premium</h2>
+                        <div class="price">R$9.99<span>/mês</span></div>
+                        <ul>
+                            <li><i class="bi bi-check2-circle"></i>Orçamento avançado e relatórios</li>
+                            <li><i class="bi bi-check2-circle"></i>Contas bancárias ilimitadas</li>
+                            <li><i class="bi bi-check2-circle"></i>Controle de investimentos</li>
+                            <li><i class="bi bi-check2-circle"></i>Categorias personalizadas</li>
+                            <li><i class="bi bi-check2-circle"></i>Suporte prioritário</li>
+                        </ul>
+                        <button>Escolher plano</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="simulator">
+            <div class="simu-wrapper">
+                <div class="simu-text">
+                    <h2>Planeje Seu Futuro</h2>
+                    <p>Veja quanto você precisa economizar por mês para alcançar sua meta. Use nosso simulador simples
+                        para começar.</p>
+                </div>
+                <div class="simu-content">
+                    <label for="valorDesejado">Meta de Economia (R$)</label>
+                    <input type="number" id="valorDesejado" placeholder="Ex.: 10000">
+
+                    <label for="meses">Período (Meses): <span id="mesesValor">12</span></label>
+                    <input type="range" id="meses" min="1" max="60" value="12">
+
+                    <div class="result-box">
+                        <span>Economia Mensal Necessária</span>
+                        <p id="resultado">R$ 0,00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">&copy; 2025 FinTrack. All rights reserved.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
